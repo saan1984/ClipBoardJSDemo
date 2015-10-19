@@ -34,7 +34,6 @@
         texarea2 = document.getElementById('textarea2');
     clipboard.on('success', function(event) {
         textarea2.value=event.text;
-        event.clearSelection();
     });
 </script>
 </html>
